@@ -3254,6 +3254,7 @@ body.menu-opened .mainmenu {
 	text-align: center;
 	margin: 0 0 33px;
 	padding: 0;
+	max-width: 200px;
 }
 .footer .footer-logo a {
 	-o-transition: all 0.2s;
