@@ -3254,7 +3254,11 @@ body.menu-opened .mainmenu {
 	text-align: center;
 	margin: 0 0 33px;
 	padding: 0;
+}
+.footer .footer-logo img{
 	max-width: 200px;
+	width: auto;
+	height: auto;
 }
 .footer .footer-logo a {
 	-o-transition: all 0.2s;
