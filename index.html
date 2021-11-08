@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Temuujin | Designer</title>
+<title>Verve</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,14 +26,15 @@
 <body>
 
 
-<div class="top">
+
+<div id="page" class="page" style="background: #656d79;">
 	<!-- Header -->
 	<header class="header">
 
 		<!-- Logotype -->
 		<p class="header-logo">
 			<a href="index.html">
-				<img src="img/logo.png" alt="">
+				<img src="img/logo.svg" alt="">
 			</a>
 		</p>
 
@@ -57,37 +58,44 @@
 	</header>
 	<!-- Header -->
 
-	<!-- Slider -->
-	<div class="topslider">
-		<div class="responisve-container">
-			<div class="slider" id="front-slider">
-				<div class="slide" data-bg="#f6b88c">
-					<img data-position="60,225" data-in="fade" data-delay="50" data-out="fade" src="img/topslider/s2.png" alt="">
-					<p data-position="210,20" data-in="bottom" data-ease-in="easeInOutBack" data-delay="400" data-out="fade" class="topslider-ttl" style="font-size: 280px;">SWEET</p>
-					<span data-fixed="" class="line-ct"></span>
-				</div>
-				<div class="slide" data-bg="#3fb58b">
-					<img data-position="60,225" data-in="fade" data-delay="50" data-out="fade" src="img/topslider/s1.png" alt="">
-					<p data-position="240,30" data-in="bottom" data-ease-in="easeInOutBack" data-delay="400" data-out="fade" class="topslider-ttl" style="font-size: 217px;">PERFECT</p>
-					<span data-fixed="" class="line-ct"></span>
-				</div>
-				<div class="slide" data-bg="#e594b2">
-					<img data-position="60,225" data-in="fade" data-delay="50" data-out="fade" src="img/topslider/s3.png" alt="">
-					<p data-position="247,30" data-in="bottom" data-ease-in="easeInOutBack" data-delay="400" data-out="fade" class="topslider-ttl" style="font-size: 197px;">CREATIVE</p>
-					<span data-fixed="" class="line-ct"></span>
-				</div>
-			</div>
+	<!-- Coming Soon -->
+	<div class="page-cont-wrap">
+		<h1 class="coming-ttl">Coming soon</h1>
+		<div class="cont page-cont coming">
+			<!-- <p class="coming-img">
+				<img src="http://placehold.it/571x327" alt="">
+			</p> -->
+			<!-- Countdown -->
+			<ul data-countdown="2016/6/27 12:00:00" id="countdown" class="coming-timer">
+				<li>
+					<span class="coming-digits">60</span>
+					days
+				</li>
+				<li>
+					<span class="coming-digits">60</span>
+					hours
+				</li>
+				<li>
+					<span class="coming-digits">60</span>
+					minutes
+				</li>
+				<li>
+					<span class="coming-digits">60</span>
+					seconds
+				</li>
+			</ul>
+			<!-- Countdown -->
 		</div>
 	</div>
-	<!-- Slider -->
-</div>
+	<span class="line-ct-wrap"><span class="line-ct"></span></span>
 
+</div>
 
 <!-- Navmenu -->
 <div class="mainmenu-bg" id="mainmenu-bg"></div>
 <nav class="mainmenu" id="mainmenu">
 	<ul>
-		<li class="active">
+		<li>
 			<a href="index.html">Home</a>
 		</li>
 		<li class="mainmenu-parent">
@@ -139,7 +147,7 @@
 		<li>
 			<a href="contacts.html">Contacts</a>
 		</li>
-		<li>
+		<li class="active">
 			<a href="coming.html">Coming Soon</a>
 		</li>
 		<li>
@@ -148,241 +156,6 @@
 	</ul>
 </nav>
 <!-- Navmenu -->
-
-
-<!-- Main Content -->
-<main>
-
-
-<div class="cont front">
-
-	<!-- Projects Sections -->
-	<div class="cont project-front-sections-wrap" id="project-front-sections">
-		<div class="project-front-sections-inner">
-			<ul class="project-front-sections">
-				<li>
-					<a class="active" data-section="*" href="#">All posts</a>
-				</li>
-				<li>
-					<a data-section=".section1" href="#">Stories</a>
-				</li>
-				<li>
-					<a data-section=".section2" href="#">Travels</a>
-				</li>
-				<li>
-					<a data-section=".section3" href="#">Cooking</a>
-				</li>
-				<li>
-					<a data-section=".section4" href="#">Peoples</a>
-				</li>
-				<li>
-					<a data-section=".section5" href="#">Other</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<!-- Projects Sections -->
-
-	<!-- Projects Items -->
-	<div class="project-front-list" id="project-front-list">
-		<div class="project-front project-front-width2 section2 section3">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/600x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Travels</p>
-					<h3>Curabitur sed sapien</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front project-front-width2 section4">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/600x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Peoples</p>
-					<h3>Pellentesque nec odio ut</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front section1">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/300x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Stories</p>
-					<h3>Quisque scelerisque sem sit</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front project-front-width2 section1 section3">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/600x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Cooking</p>
-					<h3>Nam at leo lorem</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front section2 section5">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/300x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Travels</p>
-					<h3>Morbi nec urna ut</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front project-front-width2 section4 section5">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/600x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Peoples</p>
-					<h3>Praesent fringilla augue molestie</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front project-front-width2 section2">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/600x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Travels</p>
-					<h3>Suspendisse hendrerit magna</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front section3">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/300x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Cooking</p>
-					<h3>Praesent fringilla augue molestie</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front project-front-width2 section4">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/600x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Peoples</p>
-					<h3>Fusce facilisis magna sed</h3>
-				</div>
-			</a>
-		</div>
-		<div class="project-front section5">
-			<a href="project.html" class="project-front-link">
-				<img src="http://placehold.it/300x305" alt="">
-				<div class="project-front-cont">
-					<p class="project-front-sect">Other</p>
-					<h3>Aliquam vitae ipsum</h3>
-				</div>
-			</a>
-		</div>
-	</div>
-	<p class="project-front-more">
-		<a href="index.html" id="project-front-more">Show more</a>
-	</p>
-	<!-- Projects Items -->
-
-	<!-- Homepage Posts -->
-	<div class="post-front-list">
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Cooking</a>
-			<h3><a href="post.html">Nam consequat</a></h3>
-			<p>Phasellus vitae blandit mi. Donec nec gravida urna, eu rhoncus justo. Nullam eu semper metus</p>
-		</div>
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Travels</a>
-			<h3><a href="post.html">Duis libero eros</a></h3>
-			<p>Vivamus vitae turpis venenatis, sagittis arcu ut, mattis urna. Maecenas eget nulla cursus, faucibus nulla</p>
-		</div>
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Peoples</a>
-			<h3><a href="post.html">Quisque pretium ligula vitae ex</a></h3>
-			<p>Pellentesque sit amet mollis sapien, quis aliquam ex. Aliquam sed lorem eget</p>
-		</div>
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Other</a>
-			<h3><a href="post.html">Duis libero eros</a></h3>
-			<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec blandit</p>
-		</div>
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Peoples</a>
-			<h3><a href="post.html">Nulla posuere dui</a></h3>
-			<p>Nunc maximus elit vitae interdum cursus. Etiam sodales hendrerit egestas.</p>
-		</div>
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Other</a>
-			<h3><a href="post.html">Nunc et enim sed elit malesuada</a></h3>
-			<p>Integer sit amet lorem fringilla, interdum quam eu, lobortis quam.</p>
-		</div>
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Cooking</a>
-			<h3><a href="post.html">Nulla posuere dui</a></h3>
-			<p>Integer sit amet lorem fringilla, interdum quam eu, lobortis quam. Sed porta lacus a rhoncus maximus.</p>
-		</div>
-		<div class="post-front">
-			<a class="post-front-sect" href="blog.html">Cooking</a>
-			<h3><a href="post.html">Phasellus suscipit ex ut nisl rutrum</a></h3>
-			<p>Cras ante justo, rhoncus et tortor ac, vehicula pretium ligula. Sed massa</p>
-		</div>
-	</div>
-	<p class="post-front-link">
-		<a href="http://instagram.com" rel="nofollow" target="_blank">Open blog</a>
-	</p>
-	<!-- Homepage Posts -->
-
-	<!-- Instagram Photos -->
-	<ul class="instagram-list" id="instagram-list">
-		<li class="instagram-sizer"></li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-		<li class="instagram-item">
-			<a href="http://instagram.com" rel="nofollow" target="_blank">
-				<img src="http://placehold.it/300x253" alt="">
-			</a>
-		</li>
-	</ul>
-	<p class="instagram-more">
-		<a href="http://instagram.com" rel="nofollow" target="_blank">Open instagram</a>
-	</p>
-	<!-- Instagram Photos -->
-
-</div>
-
-
-</main>
-<!-- Main Content -->
 
 
 <!-- Footer -->
@@ -455,10 +228,22 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.fractionslider.js"></script>
-
-<script src="js/isotope.pkgd.min.js"></script>
-
 <script src="js/main.js"></script>
+
+<script src="js/jquery.countdown.min.js"></script>
+<script>
+"use strict";
+if ($('#countdown').length > 0) {			
+	$('#countdown').each(function() {
+		$(this).countdown($(this).data('countdown'), function(event) {
+			$(this).html(event.strftime(
+				'<li><p class="coming-digits">%-D</p>day%!d</li><li><p class="coming-digits">%H</p>hours</li><li><p class="coming-digits">%M</p>minutes</li><li><p class="coming-digits">%S</p>seconds</li>'
+			));
+		});
+	});
+}
+</script>
+
 
 </body>
 </html>
