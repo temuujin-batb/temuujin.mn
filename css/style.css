@@ -215,8 +215,7 @@ input:focus {
 .header .header-logo img {
 	display: inline-block;
 	vertical-align: middle;
-	max-width: 10vw;
-	max-height: 100%;
+	max-width: 200px;
 	width: auto;
 	height: auto;
 }
